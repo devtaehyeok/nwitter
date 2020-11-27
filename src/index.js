@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from 'components/App';
-import fbInstance from 'fbInstance';
+import {firebaseInstance}  from 'fbInstance';
 
-console.log(fbInstance);
+console.log(firebaseInstance );
 ReactDOM.render(
  
   <React.StrictMode>
