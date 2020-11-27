@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from 'components/App';
-import {firebaseInstance}  from 'fbInstance';
+import {firebaseInstance}  from 'fbase';
 
 console.log(firebaseInstance );
 ReactDOM.render(
